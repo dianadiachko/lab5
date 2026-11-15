@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.admin-shell {
+    --admin-surface: #f3f4f6;
+    --admin-card: #ffffff;
+    --admin-ink: #1e293b;
+    --admin-muted: #64748b;
+    --admin-accent: #334155;
+}
+
+@theme inline {
+    --color-admin-surface: var(--admin-surface);
+    --color-admin-card: var(--admin-card);
+    --color-admin-ink: var(--admin-ink);
+    --color-admin-muted: var(--admin-muted);
+    --color-admin-accent: var(--admin-accent);
+}

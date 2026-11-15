@@ -1,0 +1,27 @@
+<div class="partners-slider__track">
+
+    <svg class="partner-logo" viewBox="0 0 48 48">
+        <use href="{{ asset('images/partner-logos.svg') }}#logo-nova"></use>
+    </svg>
+
+    <svg class="partner-logo" viewBox="0 0 48 48">
+        <use href="{{ asset('images/partner-logos.svg') }}#logo-orbit"></use>
+    </svg>
+
+    <svg class="partner-logo" viewBox="0 0 48 48">
+        <use href="{{ asset('images/partner-logos.svg') }}#logo-vector"></use>
+    </svg>
+
+    <svg class="partner-logo" viewBox="0 0 48 48">
+        <use href="{{ asset('images/partner-logos.svg') }}#logo-form"></use>
+    </svg>
+
+    <svg class="partner-logo" viewBox="0 0 48 48">
+        <use href="{{ asset('images/partner-logos.svg') }}#logo-pulse"></use>
+    </svg>
+
+    <svg class="partner-logo" viewBox="0 0 48 48">
+        <use href="{{ asset('images/partner-logos.svg') }}#logo-nexus"></use>
+    </svg>
+
+</div>

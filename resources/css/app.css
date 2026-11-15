@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Пагінація каталогу */
+.catalog-pagination {
+    margin-top: 28px;
+}
+
+.catalog-pagination__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.catalog-pagination__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px 12px;
+    font-size: 13px;
+    line-height: 1.4;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px;
+    color: #222;
+    background: #fff;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.catalog-pagination__button:hover {
+    background: #f3f3f3;
+}
+
+.catalog-pagination__button--disabled {
+    color: #999;
+    background: #f7f7f7;
+    cursor: default;
+}
+
+.catalog-pagination__info {
+    font-size: 13px;
+    color: #666;
+}
